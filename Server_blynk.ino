@@ -10,15 +10,15 @@
 #include "RTClib.h"
 #include <WiFi.h>
 #include <RTClib.h>
-char auth[] = "bf6a6613668a4c589542cbc686e440d7";
+char auth[] = "blynk-auth-code-in-email";
 RTC_Millis RTC;
 WiFiClient clients;  
 WiFiClient client; 
 WiFiClient client2;
 boolean alreadyConnected = false;
 boolean alreadyConnected2 = false;
-char ssid[] = "Aakriti";
-char password[] = "aakriti143";
+char ssid[] = "wifi name";
+char password[] = "wifi password";
 char buffer1[255];
 char buffer[255];
 int j=0;
